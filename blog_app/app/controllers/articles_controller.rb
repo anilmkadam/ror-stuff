@@ -4,10 +4,15 @@ class ArticlesController < ApplicationController
   end
 
   def create
-    # render plain: params[:article].inspect
     @article = Article.new(article_params)
-    @article.save
-    redirect_to article_show(@article)
+    # if article_params[:title].empty? && article_params[:description].empty?
+    #   render 'new'
+    if @article.save
+      flash[:notice] = "Article Successfully created"
+      redirect_to article_path(@article)
+    else
+      render 'new'
+    end
   end
 
   private
