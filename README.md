@@ -1,6 +1,6 @@
 This is Ruby on Rails project.
 1) Test App 
-  This app contains following feature as follow :
+  This app contains following feature as follow : 
     Articles
     1) Create New Articles
     2) Update Articles
