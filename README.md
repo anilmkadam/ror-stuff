@@ -7,6 +7,7 @@ This is Ruby on Rails project.
     3) Destroy Articles
     4) Show Articles
 
+
 2) Blog App
 
 Model name: Article, class: Article -> Capitalized A and singular
