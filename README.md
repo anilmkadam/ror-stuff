@@ -1,4 +1,4 @@
-This is Ruby on Rails project.
+### `This is Ruby on Rails project.`
 1) Test App 
   This app contains following feature as follow : 
     Articles
@@ -8,7 +8,7 @@ This is Ruby on Rails project.
     4) Show Articles
 
 
-2) Blog App
+2) Blog App 
 
 Model name: Article, class: Article -> Capitalized A and singular
 
